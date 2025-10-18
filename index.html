@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My E-Portfolio</title>
+  <style>
+    body {
+      background-color: #fdf6f0;
+      color: #444;
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      background: linear-gradient(to right, #ffd1dc, #fff6bf, #ffe7d1);
+      padding: 25px;
+      font-size: 42px;
+      color: #c85a7b;
+      border-radius: 20px;
+      width: 70%;
+      margin: 40px auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .nav-container button 
+{background-color: #ffd1dc;
+      border: none;
+      padding: 20px 60px;
+      border-radius: 25px;
+      font-size: 20px;
+      margin: 15px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+
+    .nav-container button:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .btn-tle { background-color: #fff6bf; }
+    .btn-ap { background-color: #ffe7d1; }
+
+    .photo {
+      width: 220px;
+      height: 220px;
+      border-radius: 15px;
+      border: 5px solid white;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #ffd1dc, #fff6bf, #ffe7d1);
+      padding: 15px;
+      border-radius: 10px;
+      width: 60%;
+      margin: 40px auto;
+      text-align: center;
+      font-weight: bold;
+      color: #c85a7b;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    hr {
+      width: 80%;
+      border: 1px solid #f0dada;
+      margin: 40px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <center>
+    <h1>My E-Portfolio</h1>
+    <p style="font-size: 20px;"><b>Choose a section:</b></p>
+
+    <div class="nav-container">
+      <a href="personal.html"><button>Personal</button></a>
+      <a href="tle.html"><button class="btn-tle">TLE-ICT</button></a>
+      <a href="ap.html"><button class="btn-ap">Araling Panlipunan</button></a>
+    </div>
+
+    <img src="chii.jpg" alt="chiikawacute" class="photo">
+  </center>
+
+  <hr>
+
+  <div class="footer">
+     My E-Portfolio | Created by <b>Chloe Chavez </b>
+  </div>
+
+</body>
+</html>
